@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-    
     double number = 0.0;
     int factorCount = 0;
     vector<double> factors;
