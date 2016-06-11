@@ -15,7 +15,7 @@ int main()
     cout << "Enter factor count: ";
     cin >> factorCount;
     
-    for(int nIdx = 1; nIdx <=factorCount - 1; ++nIdx)
+    for(int nIdx = 1; nIdx <= factorCount - 1; ++nIdx)
     {
         factors.push_back((double)nIdx + 1);
     }
