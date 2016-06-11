@@ -15,9 +15,9 @@ int main()
     cout << "Enter factor count: ";
     cin >> factorCount;
     
-    for(int i = 1; i <=factorCount - 1; ++i)
+    for(int nIdx = 1; nIdx <=factorCount - 1; ++nIdx)
     {
-        factors.push_back((double)i + 1);
+        factors.push_back((double)nIdx + 1);
     }
     
     double factorProduct = 1.0;
